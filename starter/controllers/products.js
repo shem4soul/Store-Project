@@ -4,7 +4,7 @@ const getAllProductsStatic = async (req, res) => {
 
 }
 
-
+// controllers/products.js
 const getAllProducts = async (req, res) => {
     res.status(200).json({msg: 'Products routes'})
     
